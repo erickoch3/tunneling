@@ -113,7 +113,8 @@ def request_devices():
 		print("Telnet or ssh, you're out of luck... Input the public IP's here.")
 		print("After you input these IP's, you will have the opportunity to input")
 		print("mappings between public and private IP's as well as the starting")
-		print("rport. Go ahead and begin inputting IP's:"")
+		print("rport. Go ahead and begin inputting IP's:")
+		usr_inp = input()
 	devices = []
 	while usr_inp.lower() != 'stop':
 		# Check format and parse the information given

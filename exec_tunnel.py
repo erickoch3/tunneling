@@ -104,7 +104,7 @@ def request_devices():
 	"""
 	print("Please input the machines through which we will tunnel.")
 	print("Format: IP, ssh port, telnet port, username, password, wall before?")
-	print("Type 0 if port unknown or default, wall before = y/n.")
+	print("wall before = y/n. Don't use spaces!")
 	print("Start with your own device. Type 'help' for more info:")
 	usr_inp = input()
 	if usr_inp.lower() == 'help':
